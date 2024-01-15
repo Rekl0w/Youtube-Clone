@@ -3,8 +3,8 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <div class="bg-black text-white w-52 h-screen">
-    <div class="container">
+  <div class="bg-black text-white w-64 h-screen">
+    <div class="container overflow-y-auto overflow-x-hidden h-screen">
       <div class="flex items-center justify-center w-full">
         <button class="flex items-center justify-center mt-6">
           <svg
@@ -74,7 +74,8 @@ import { ref } from "vue";
       </div>
 
       <div
-        class="navbutton flex items-center p-3 mt-5 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 mt-5 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+        style="background-color: #3c3c3d"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -98,7 +99,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -123,7 +124,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -149,7 +150,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -173,9 +174,9 @@ import { ref } from "vue";
           <p class="">YouTube Music</p>
         </button>
       </div>
-      <div class="line w-full bg-gray-300 ml-4 mt-4"></div>
+      <div class="line bg-gray-300 ml-4 mt-4 w-5/6"></div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 mt-2"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 mt-2 w-5/6"
       >
         <button class="flex items-center">
           <p class="mr-2">You</p>
@@ -200,7 +201,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -223,7 +224,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -250,7 +251,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -274,7 +275,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -299,7 +300,7 @@ import { ref } from "vue";
         </button>
       </div>
       <div
-        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6"
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
       >
         <button class="flex gap-6 items-center">
           <svg
@@ -348,8 +349,148 @@ import { ref } from "vue";
           <p class="">Show More</p>
         </button>
       </div>
-      <div class="line w-full bg-gray-300 ml-4 mt-4"></div>
-
+      <div class="line bg-gray-300 ml-4 mt-4 w-5/6"></div>
+      <div
+        class="flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <p class="font-bold">Subscriptions</p>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <img
+            id="img"
+            draggable="false"
+            class="style-scope yt-img-shadow rounded-full"
+            height="24"
+            width="24"
+            alt=""
+            src="https://yt3.ggpht.com/t1gVF0UZb3h6E7KH8ElfWBJuPa5DO0szjSYG1lEXZjRKKLW_g2n8AbEmhPVeZV_Nfwgc8AfISsU=s88-c-k-c0x00ffffff-no-rj"
+          />
+          <p class="">FunWithGuru</p>
+        </button>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <img
+            id="img"
+            draggable="false"
+            class="style-scope yt-img-shadow rounded-full"
+            height="24"
+            width="24"
+            alt=""
+            src="https://yt3.ggpht.com/nDTo1trLwi1nZPTqS4RjsuC1B2V920Z9jQvrwrlOWqmALdQWLK0FD-OTh2U9o49-16hHrD3N=s88-c-k-c0x00ffffff-no-rj"
+          />
+          <p class="">videogamedunkey</p>
+        </button>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <img
+            id="img"
+            draggable="false"
+            class="style-scope yt-img-shadow rounded-full"
+            height="24"
+            width="24"
+            alt=""
+            src="https://yt3.ggpht.com/ytc/AIf8zZTDkajQxPa4sjDOW-c3er1szXkSAO-H9TiF4-8u_Q=s88-c-k-c0x00ffffff-no-rj"
+          />
+          <p class="">freeCodeCamp.org</p>
+        </button>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <img
+            id="img"
+            draggable="false"
+            class="style-scope yt-img-shadow rounded-full"
+            height="24"
+            width="24"
+            alt=""
+            src="https://yt3.ggpht.com/6pw8YF3c0ZGAYzPfEe6ZoUO0yxoa5_ymOSB1_-dkgvS1WWWM3PmRwHV_JK6dLdpJzypGnh3qeQ=s88-c-k-c0x00ffffff-no-rj"
+          />
+          <p class="">BBC Learning En...</p>
+        </button>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <img
+            id="img"
+            draggable="false"
+            class="style-scope yt-img-shadow rounded-full"
+            height="24"
+            width="24"
+            alt=""
+            src="https://yt3.ggpht.com/a6xDscSdwtQRbBTSVtAqSvdqWWvTjTrWxRqfp4QpyehurIc0-hQY6PB96trHEPb6zVB7fZG4Hc4=s88-c-k-c0x00ffffff-no-rj"
+          />
+          <p class="">World Table Tennis</p>
+        </button>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 24px;
+              height: 24px;
+              fill: white;
+            "
+          >
+            <path
+              d="m18 9.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"
+            ></path>
+          </svg>
+          <p class="">Show More</p>
+        </button>
+      </div>
+      <div class="line bg-gray-300 ml-4 mt-4 w-5/6"></div>
+      <div
+        class="flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <p class="font-bold">Explore</p>
+      </div>
+      <div
+        class="navbutton flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-5/6"
+      >
+        <button class="flex gap-6 items-center">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            focusable="false"
+            style="
+              pointer-events: none;
+              display: block;
+              width: 24px;
+              height: 24px;
+              fill: white;
+            "
+          >
+            <path
+              d="m18 9.28-6.35 6.35-6.37-6.35.72-.71 5.64 5.65 5.65-5.65z"
+            ></path>
+          </svg>
+          <p class="">Show Mdsadsaore</p>
+        </button>
+      </div>
     </div>
   </div>
 </template>
@@ -363,5 +504,17 @@ import { ref } from "vue";
 .line {
   background-color: #3f3f3f;
   height: 1px;
+}
+
+.container::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+.container:hover::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 20px;
+  height: 60%;
 }
 </style>
