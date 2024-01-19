@@ -3,7 +3,7 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <div class="bg-black text-white w-64 h-screen -mt-16 -ml-3">
+  <div class="bg-black text-white w-64 h-screen -mt-16 -ml-3 fixed">
     <div class="container overflow-y-auto overflow-x-hidden h-screen">
       
 
@@ -765,6 +765,8 @@ import { ref } from "vue";
         class="flex items-center p-3 transition-all duration-500 rounded-2xl ml-6 w-4/6 text-gray-400 text-sm"
       >
         © 2024 Rekl0w
+      </div>
+      <div class="mt-16">
       </div>
     </div>
   </div>

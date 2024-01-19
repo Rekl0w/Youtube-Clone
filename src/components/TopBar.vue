@@ -5,9 +5,9 @@ const showSearch = ref(false);
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex tb">
     <div
-      class="flex items-center justify-center mt-5 items rounded-full w-10 h-10 ml-5"
+      class="flex items-center justify-center mt-5 items rounded-full w-10 h-10 ml-5 cursor-pointer"
     >
       <button class="flex gap-6 items-center">
         <svg
@@ -172,7 +172,7 @@ const showSearch = ref(false);
       </button>
     </div>
     <div
-      class="flex rounded-full ml-96 video-logo w-11 h-11 justify-center items-center mt-4"
+      class="flex rounded-full ml-96 video-logo w-11 h-11 justify-center items-center mt-4 cursor-pointer"
     >
       <button>
         <svg
@@ -196,7 +196,7 @@ const showSearch = ref(false);
       </button>
     </div>
     <div
-      class="flex rounded-full video-logo ml-2 w-11 h-11 justify-center items-center mt-4"
+      class="flex rounded-full video-logo ml-2 w-11 h-11 justify-center items-center mt-4 cursor-pointer"
     >
       <button>
         <svg
@@ -221,7 +221,7 @@ const showSearch = ref(false);
       </button>
     </div>
     <div
-      class="flex rounded-full video-logo ml-2 w-11 h-11 justify-center items-center mt-4"
+      class="flex rounded-full video-logo ml-2 w-11 h-11 justify-center items-center mt-4 cursor-pointer"
     >
       <button class="rounded-full">
         <img
@@ -263,4 +263,5 @@ const showSearch = ref(false);
 .items:hover {
   background-color: #3c3c3d;
 }
+
 </style>
