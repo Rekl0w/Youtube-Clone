@@ -3,10 +3,8 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <div class="bg-black text-white w-64 h-screen -mt-16 -ml-3 fixed">
+  <div class="bg-black text-white w-64 h-screen mt-16 -ml-3 fixed z-40">
     <div class="container overflow-y-auto overflow-x-hidden h-screen">
-      
-
       <div
         class="navbutton flex items-center p-3 mt-5 transition-all duration-500 rounded-2xl ml-6 w-5/6"
         style="background-color: #3c3c3d"
@@ -766,8 +764,7 @@ import { ref } from "vue";
       >
         © 2024 Rekl0w
       </div>
-      <div class="mt-16">
-      </div>
+      <div class="mt-16"></div>
     </div>
   </div>
 </template>

@@ -5,9 +5,9 @@ const showSearch = ref(false);
 </script>
 
 <template>
-  <div class="flex tb">
+  <div class="flex tb fixed z-50 w-full overflow-hidden">
     <div
-      class="flex items-center justify-center mt-5 items rounded-full w-10 h-10 ml-5 cursor-pointer"
+      class="flex items-center justify-center mt-5 items rounded-full w-10 h-10 ml-5 cursor-pointer z-50"
     >
       <button class="flex gap-6 items-center">
         <svg
@@ -91,9 +91,9 @@ const showSearch = ref(false);
       </button>
     </div>
 
-    <div class="flex items-end ml-72 rounded w-4/12">
+    <div class="flex items-end ml-96 rounded w-4/12">
       <div class="flex w-full">
-        <div v-if="showSearch" class="fixed items-start mt-2 rounded-l-full mb-2 z-50 ">
+        <div v-if="showSearch" class="fixed items-start rounded-l-full z-50 ">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           enable-background="new 0 0 24 24"
@@ -148,7 +148,7 @@ const showSearch = ref(false);
       </div>
     </div>
     <div
-      class="flex rounded-full mic p-4 ml-4 w-11 h-11 items-center justify-center cursor-pointer mt-4"
+      class="flex rounded-full mic p-4 ml-4 w-11 h-11 items-center justify-center cursor-pointer mt-5 mr-12"
     >
       <button>
         <svg
@@ -263,5 +263,13 @@ const showSearch = ref(false);
 .items:hover {
   background-color: #3c3c3d;
 }
+
+.tb {
+  height: 4rem;
+  background-color: black;
+}
+
+/* #737373
+#9b9b9b */
 
 </style>
