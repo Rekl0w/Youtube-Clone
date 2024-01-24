@@ -232,7 +232,7 @@ const truncateDescription = (description) => {
             alt=""
             width="36px"
             height="36px"
-            src="https://yt3.ggpht.com/t1gVF0UZb3h6E7KH8ElfWBJuPa5DO0szjSYG1lEXZjRKKLW_g2n8AbEmhPVeZV_Nfwgc8AfISsU=s68-c-k-c0x00ffffff-no-rj"
+            src="../assets/avatar.png"
           />
           <div>
             <h3
