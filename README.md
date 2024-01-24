@@ -1,8 +1,36 @@
-# Vue 3 + Vite
+# YouTube Clone
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+![YouTube Clone](img/home.png)
 
-## Recommended IDE Setup
+This project is a simple YouTube clone developed using Vue.js. Tailwind CSS is utilized for styling.
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Features
 
+- **Home Page**: Displays a list of popular videos.
+
+## Project Setup
+
+1. Navigate to the project folder:
+
+    ```bash
+    cd Youtube-Clone
+    ```
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+3. Start the project:
+
+    ```bash
+    npm run dev
+    ```
+4. Go to [http://localhost:5173](http://localhost:5173) in your browser to view the application.
+
+ ## Technologies Used
+- Vue.js
+- Tailwind CSS
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for more information.
